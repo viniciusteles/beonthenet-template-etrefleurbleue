@@ -61,6 +61,10 @@ ul#thumbnails li {
   font-size:     	         100%;
 }
 
+ul#thumbnails li h3 {
+  line-height:            1.2em;
+}
+
 ul#thumbnails li div a {
   text-align:             center;
   text-decoration:        none;
