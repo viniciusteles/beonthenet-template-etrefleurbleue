@@ -62,7 +62,7 @@ hr {
 }
 
 #header li {
-  background:             #FFF no-repeat left top;
+  background:             #FFF url(../images/tab_best_galleries.gif) no-repeat left top;
 }
 
 #header li a:visited {
@@ -77,58 +77,15 @@ hr {
   border-top: 3px solid #555;
 }
 
-li.current a {
+#header li.current a {
   color:        #2B879E;
   border-color: #2B879E;
 }
 
-li.current {
+#header li.current {
   color:        #2B879E;
   border-color: #2B879E;
-}
-
-#header li.best_galleries {
-	background:       transparent url(../images/tab_best_galleries.gif) top left no-repeat;
-}
-
-body.best_galleries #header li.best_galleries {
-	background:       transparent url(../images/tab_best_galleries_current.gif) top left no-repeat;
-}
-
-#header li.full_galleries {
-	background:       transparent url(../images/tab_full_galleries.gif) top left no-repeat;
-}
-body.full_galleries #header li.full_galleries {
-	background:       transparent url(../images/tab_full_galleries_current.gif) top left no-repeat;
-}
-
-#header li.all_videos {
-	background:       transparent url(../images/tab_videos.gif) top left no-repeat;
-}
-body.videos #header li.all_videos {
-	background:       transparent url(../images/tab_videos_current.gif) top left no-repeat;
-}
-
-#header li.blog {
-	background:       transparent url(../images/tab_blog.gif) top left no-repeat;
-}
-body.blog #header li.blog {
-	background:       transparent url(../images/tab_blog_current.gif) top left no-repeat;
-}
-
-#header li.quem_somos {
-	background:       transparent url(../images/tab_who.gif) top left no-repeat;
-}
-
-body.quem_somos #header li.quem_somos {
-	background:       transparent url(../images/tab_who_current.gif) top left no-repeat;
-}
-
-#header li.contact {
-	background:       transparent url(../images/tab_contact.gif) top left no-repeat;
-}
-body.contact #header li.contact {
-	background:       transparent url(../images/tab_contact_current.gif) top left no-repeat;
+  background-image:       url(../images/tab_best_galleries_current.gif);
 }
 /* /Header tabbed menu */
 
