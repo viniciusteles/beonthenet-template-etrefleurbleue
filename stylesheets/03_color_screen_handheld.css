@@ -77,12 +77,12 @@ hr {
   border-top: 3px solid #555;
 }
 
-#header li.current a {
+li.current a {
   color:        #2B879E;
   border-color: #2B879E;
 }
 
-#header li.current {
+li.current {
   color:        #2B879E;
   border-color: #2B879E;
   background-image:       url(../images/tab_best_galleries_current.gif);
