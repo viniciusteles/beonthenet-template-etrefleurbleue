@@ -85,23 +85,10 @@ a {
   margin-right:           -.25em;
 }
 
-
-body.best_galleries #header li.best_galleries, 
-body.full_galleries #header li.full_galleries, 
-body.all_videos #header li.all_videos, 
-body.quem_somos #header li.quem_somos, 
-body.contact #header li.contact, 
-body.blog #header li.blog, 
 li.current {
   top:                   1em;
 }
 
-body.best_galleries #header li.best_galleries a, 
-body.full_galleries #header li.full_galleries a, 
-body.all_videos #header li.all_videos a, 
-body.quem_somos #header li.quem_somos a, 
-body.contact #header li.contact a, 
-body.blog #header li.blog a, 
 li.current a {
   border-top:            3px solid;
 }

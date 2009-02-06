@@ -77,24 +77,12 @@ hr {
   border-top: 3px solid #555;
 }
 
-body.best_galleries #header li.best_galleries a, 
-body.full_galleries #header li.full_galleries a,
-body.videos #header li.all_videos a,
-body.blog #header li.blog a,
-body.quem_somos #header li.quem_somos a,
-body.contact #header li.contact a
-{
+li.current a {
   color:        #2B879E;
   border-color: #2B879E;
 }
 
-body.best_galleries #header li.best_galleries, 
-body.full_galleries #header li.full_galleries,
-body.videos #header li.all_videos,
-body.blog #header li.blog,
-body.quem_somos #header li.quem_somos,
-body.contact #header li.contact
-{
+li.current {
   color:        #2B879E;
   border-color: #2B879E;
 }
