@@ -145,7 +145,7 @@ ul#thumbnails a:hover label {
 }
 /* /Summary */
 
-#summary,.error_hints, #picture_description {
+#summary,body.application #main_content ul, #picture_description {
 	background:             #EAEAEA repeat-x bottom;
 	border-color:           #999;
 }
