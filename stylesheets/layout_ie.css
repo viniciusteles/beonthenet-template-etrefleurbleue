@@ -9,20 +9,9 @@ hr {
 	position: relative;
 }
 
-#header li {
-  display:                inline;
-  padding:                0 0 0 0;
-  position:               relative;
-  top:                    1em;
-}
-
-
 #header li a {
-  padding:                .3em 1.2em 1em 2.4em;
-  margin-right:           -.25em;
-  border-top: 3px solid white;
+  padding:                5px 1.2em 1em 2.4em;
 }
-
 
 
 /* Vertically centering images */
@@ -34,6 +23,10 @@ ul#thumbnails li div span.ie {
 	vertical-align:         middle;
 	height:                 100%;
 }
+ul#thumbnails li div img {
+	vertical-align:         middle;
+}
+
 
 .second {
   bottom:                 40px;
@@ -43,7 +36,6 @@ ul#thumbnails li div span.ie {
 #selected_pictures label {
 	filter:                 alpha(opacity=70);
 }
-
 
 body#selection #selection_size {
   right:                  34.25em;

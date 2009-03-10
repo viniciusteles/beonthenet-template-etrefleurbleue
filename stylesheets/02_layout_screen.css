@@ -38,8 +38,8 @@ a {
 
 /* Header tabbed menu */
 #header {
-  min-height:             38px;
-  height:                 2.5em;
+  min-height:             56px;
+  height:                 3.5em;
   padding-top:            .5em;
   padding-bottom:         0;
   border-top:             3px solid;
@@ -58,12 +58,16 @@ a {
   overflow:               hidden;
 }
 
+#slogan {
+  padding-top:            5px;
+}
+
 #header ul {
   height:                 54px;
   margin-left:            160px;
   position:               absolute;
+  top:                    0;
   right:                  0;
-  bottom:                 0;
   left:                   8em;
   overflow:               hidden;
 }
@@ -72,7 +76,7 @@ a {
   display:                inline;
   padding:                .5em 0 1.1em 0;
   position:               relative;
-  top:                    1em;
+  top:                    9px;
 }
 
 
@@ -130,7 +134,7 @@ ul#thumbnails {
 ul#thumbnails li {
 	float:                  left;
 	width:                  250px;
-  margin:                 2.5em 3.9em 2em 0;  
+  margin:                 3.5em 3.9em 2em 0;  
   position:               relative;
 }
 
@@ -157,9 +161,6 @@ ul#thumbnails li div a {
 	height:                 250px;
 	vertical-align:         middle;
 }
-ul#thumbnails li div img {
-	vertical-align:         middle;
-}
 
 ul#thumbnails li div a label {
 	width:                  auto;
@@ -169,7 +170,7 @@ ul#thumbnails li div a label {
 }
 
 body.videos #thumbnails img {
-  width:                  230px;
+  width:                  240px;
 }
 /* /Thumbnails */
 

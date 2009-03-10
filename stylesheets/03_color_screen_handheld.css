@@ -53,16 +53,12 @@ hr {
 
 /* Header tabbed menu */
 #header {
-  background:             #FFF url(../images/header_shading_1.png) no-repeat left top;
+  background:             #CCC url(../images/header_shading.png) no-repeat left bottom;
   border-color:           #C4C7C8;
 }
 
 #header h1 img {
   color:                  #2B879E;
-}
-
-#header li {
-  background:             #FFF url(../images/tab_best_galleries.gif) no-repeat left top;
 }
 
 #header li a:visited {
@@ -77,15 +73,15 @@ hr {
   border-top: 3px solid #555;
 }
 
-li.current a {
+li.current {
   color:        #2B879E;
   border-color: #2B879E;
 }
 
-li.current {
+li.current a {
   color:        #2B879E;
   border-color: #2B879E;
-  background-image:       url(../images/tab_best_galleries_current.gif);
+  background:             transparent url(../images/tab_best_galleries_current.gif) no-repeat left top;
 }
 /* /Header tabbed menu */
 

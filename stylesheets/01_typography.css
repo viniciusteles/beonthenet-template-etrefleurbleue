@@ -44,6 +44,11 @@ h4 a:focus, h4 a:hover {
 
 
 /* Header tabbed menu */
+#slogan {
+  font-style:             italic;
+  font-size:              75%;
+}
+
 #header li {
     font-size:              85%;
 	line-height:            1em;
@@ -62,7 +67,7 @@ ul#thumbnails li {
 }
 
 ul#thumbnails li h3 {
-  line-height:            1.2em;
+  line-height:            1.1em;
 }
 
 ul#thumbnails li div a {
