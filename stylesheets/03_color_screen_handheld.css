@@ -279,7 +279,7 @@ body#selection #selection_size label {
 	border-color:           #2B879E;
 }
 
-#cart_items.instructions {
+#cart_itemsbody.text {
 	background:             #FFF url(../images/selection_instructions.gif) no-repeat center center;	
 }
 
@@ -322,18 +322,6 @@ body#selection #selection_size label {
 	border-color: #2B879E;
 }
 /* /Selection */
-
-
-/* Who */
-.quem_somos dt, 
-.quem_somos #main_content strong {
-  color:                  #2B879E;
-}
-
-.quem_somos cite {
-	background:             transparent url(../images/signature_patfig.gif) no-repeat right top;
-}
-/* /Who */
 
 
 /* Forms (contact, checkout, search) */
@@ -466,10 +454,14 @@ body#timeout #main_content h2 {
 /* /Footer */
 
 
-
-/* Instructions */
-body.instructions #main_content dt {
+/* Text */
+body.text #main_content dt, 
+body.text #main_content strong {
   color:                  #2B879E;
+}
+
+body.text cite {
+	background:             transparent url(../images/signature_patfig.gif) no-repeat right top;
 }
 
 code {
@@ -477,7 +469,7 @@ code {
   background:             #98D9B6;
 }
 
-.instructions table * {
+body.text table * {
   border-color:           #3EC9A7;
 }
-/* /Instructions */
+/* /Text */

@@ -246,22 +246,6 @@ body#search #search_result_count label {
 /* /Selection */
 
 
-/* Who */
-.quem_somos h1 + p:first-letter {
-  font-size:              150%;
-  line-height:            2em;
-}
-
-.quem_somos #main_content strong {
-  font-weight:            normal;
-}
-
-.quem_somos cite {
-  text-align:             right;
-}
-/* /Who */
-
-
 /* Forms (contact, checkout, search) */
 label {
   font-size:              90%;
@@ -348,18 +332,31 @@ body.application #main_content li {
 
 
 
-/* Instructions */
-body.instructions #main_content dt {
+/* Text */
+body.text h1 + p:first-letter {
+  font-size:              150%;
+  line-height:            2em;
+}
+
+body.text #main_content strong {
+  font-weight:            normal;
+}
+
+body.text cite {
+  text-align:             right;
+}
+
+body.text #main_content dt {
   font-weight:            bold;
   font-size:              80%;
 }
 
-.instructions #main_content dd, 
-.instructions #main_content ul li {
+body.text #main_content dd, 
+body.text #main_content ul li {
   text-align:             justify;
 }
 
-.instructions #main_content ul li {
+body.text #main_content ul li {
   list-style:              disc;
 }
 
@@ -367,8 +364,7 @@ code {
   font:                   normal normal normal 110%/1.2em "Lucida Console", "Monaco", monospace; 
 }
 
-.instructions td {
+body.text td {
   font-size:              85%;
 } 
-
-/* /Instructions */
+/* /Text */
