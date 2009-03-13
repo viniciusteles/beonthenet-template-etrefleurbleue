@@ -460,10 +460,6 @@ body.text #main_content strong {
   color:                  #2B879E;
 }
 
-body.text cite {
-	background:             transparent url(../images/signature_patfig.gif) no-repeat right top;
-}
-
 code {
   color:                  #111;
   background:             #98D9B6;
