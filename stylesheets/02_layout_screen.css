@@ -653,6 +653,16 @@ body.text #main_content {
   padding:                1.56em 200px;
 }
 
+body.text #main_content h1 {
+  margin-right:           -138px;
+  margin-left:            -138px;
+}
+
+body.text #main_content h2 {
+  clear:                  left;
+  padding:                1.5em 0 1em 0;
+}
+
 body.text #main_content p {
   margin:                 1em 0;
 }
@@ -679,15 +689,6 @@ body.text #toc {
   margin:                 0 2em 1em 0 !important;
 }
 
-body.text #main_content p {
-  margin:                 1em 0;
-}
-
-body.text #main_content h2 {
-  clear:                  left;
-  padding:                1.5em 0 1em 0;
-}
-
 body.text #main_content dl, 
 body.text #main_content ul {
   margin:                 1.6em 6em;
@@ -695,10 +696,6 @@ body.text #main_content ul {
 
 body.text #main_content dd {
   margin:                 0 0 1em 2.5em;
-}
-
-code {
-  padding:                .3em .5em;
 }
 
 body.text #main_content ul li {
@@ -718,4 +715,8 @@ body.text table * {
 body.text td {
   padding:                .3em 1em;
 } 
+
+code {
+  padding:                .3em .5em;
+}
 /* /Text */
