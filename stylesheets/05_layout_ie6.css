@@ -15,6 +15,10 @@ body.videos #thumbnails img {
 }
 
 
+#big_picture, #big_video {
+	height:                 360px !important;
+
+
 #all_pictures li, #cart_items li {
 	margin:                 1px;
 }
