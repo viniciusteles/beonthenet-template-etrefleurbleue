@@ -279,13 +279,13 @@ body#selection #selection_size label {
 	border-color:           #2B879E;
 }
 
-#cart_itemsbody.text {
-	background:             #FFF url(../images/selection_instructions.gif) no-repeat center center;	
+#cart_items.instructions {
+	background:             #FFF url(../images/selection_instructions.gif) no-repeat center;	
 }
 
 #all_pictures li label, #all_pictures li a, 
 #cart_items label, #cart_items a, 
-#selected_pictures label, #go_to_selection a {
+#selected_pictures label {
 	background-color:       #98D9B6;
 }
 
@@ -432,25 +432,26 @@ body#timeout #main_content h2 {
 
 /* Footer */
 #footer {
-	background:             #FFF url(../images/footer_decoration.gif) repeat-x bottom;
+	background:             #60B8CF url(../images/footer_decoration.gif) repeat-x top;
 	border-top-color:       #EFE3C3;
 	border-bottom-color:    #2B879E;
-	/*margin-bottom:          2em*/
 }
 
-#footer h6,#footer p, #footer strong {
-	color: #FFF;
+#footer *, 
+#footer h1, #footer h1 a {
+  color:                  #FFF;
+}
+#footer a, 
+#footer #beonthenet, 
+#footer #improveit {
+	color:                  #EAEAEA;
 }
 
-
-#footer a:hover, #footer a:visited, #footer a:active  {
-	color: #FFF;
+#footer a:hover, 
+#footer #beonthenet:hover img, 
+#footer #improveit:hover {
+  color:                  #FFF;
 }
-
-#footer a {
-	color: #EAEAEA;
-}
-
 /* /Footer */
 
 

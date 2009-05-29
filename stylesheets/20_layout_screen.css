@@ -120,7 +120,7 @@ li.current a {
 h1 {
 	margin-bottom:          .35em;
 }
-body#selection h1 {
+#selection #main_content h1 {
 	float:                  left;
 }
 /* /Main content top segment */
@@ -188,12 +188,18 @@ body.videos #thumbnails img {
 }
 
 #summary {
-	padding-right:          20em;
 	min-height:             4.5em;
 	height:                 auto !important;
 	height:                 4.5em;
 }
+#gallery #summary, #picture #summary {
+  padding-right:          20em;
+}
 
+.text #summary {
+  margin-right:           -138px;
+  margin-left:            -138px;
+}
 /* /Summary */
 
 
@@ -622,22 +628,28 @@ body > #facebox {
 
 
 /* Footer */
-
-
 #footer {
-  padding:                 10px 50px 5px 50px;
+  padding:                 50px 50px 5px;
 	border-bottom:          .2em solid;
-	height:                  118px;
 	margin-bottom:           2em;
 }
 
 #footer p {
-	padding-top:            50px;
-	margin-bottom:          0.1em;
+  margin-bottom:          0.1em;
 }
 
-#footer p strong {
-	display: inline;
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h5 {
+  margin:                 2em 0 .5em 0;
+}
+
+#footer h6 {
+  padding-bottom:         1em;
 }
 /* /Footer */
 
