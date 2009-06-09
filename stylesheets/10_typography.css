@@ -18,9 +18,13 @@ em {
 }
 
 h1 {
-  font-variant:           small-caps;
-  font-style:             oblique;
-  font:                   200%  Arial, Helvetica, sans-serif;
+  font-size:             190%;
+}
+#gallery h1, #search h1 {
+  font-size:              95%;
+}
+#gallery h1 em, #search h1 em {
+  font:                   normal normal normal 210% Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -34,7 +38,6 @@ h3, h3 a {
 h4, h4 a {
   font:                   98%/1.4em "Trebuchet MS", Arial, Helvitica, sans-serif;
   text-decoration:        none;
-  
 }
 
 h4 a:focus, h4 a:hover {
@@ -44,13 +47,20 @@ h4 a:focus, h4 a:hover {
 
 
 /* Header tabbed menu */
+#logo_screen a {
+  font-size:              250%;
+}
+#logo_screen img {
+  font-size:              100%;
+}
+
 #slogan {
   font-style:             italic;
   font-size:              75%;
 }
 
 #header li {
-    font-size:              85%;
+  font-size:              85%;
 	line-height:            1em;
 }
 
@@ -66,8 +76,17 @@ ul#thumbnails li {
   font-size:     	         100%;
 }
 
-ul#thumbnails li h3 {
+#thumbnails h2 a {
+  font-size:              105%;
   line-height:            1.1em;
+}
+
+#thumbnails h3 a {
+  font:                   95%/1.4em "Trebuchet MS", Arial, Helvitica, sans-serif;
+  text-decoration:        none;
+}
+#thumbnails h3 a:hover {
+  text-decoration:        underline;
 }
 
 ul#thumbnails li div a {
@@ -325,12 +344,12 @@ body.application #main_content li {
   line-height:						1.25em;
 }
 
-#footer h1, #footer h2 {
+#footer h2, #footer h3 {
   font-size:							70%;
   font-variant:           normal;
 }
 
-#footer h1 a {
+#footer h2 a {
   text-decoration:        none;
 }
 #footer #beonthenet, 

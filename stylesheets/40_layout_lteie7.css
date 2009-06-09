@@ -10,7 +10,7 @@ hr {
 }
 
 #header li a {
-  padding:                5px 1.2em 1em 2.4em;
+  padding-top:            5px;
 }
 
 
@@ -23,13 +23,11 @@ ul#thumbnails li div span.ie {
 	vertical-align:         middle;
 	height:                 100%;
 }
-ul#thumbnails li div img {
-	vertical-align:         middle;
-}
 
 
 .second {
-  bottom:                 40px;
+  position:               relative;
+  bottom:                 35px;
 }
 
 #all_pictures label, #cart_items label, 
@@ -47,6 +45,10 @@ body#selection #selection_size {
 
 label {
 	margin-top:             .3em;
+}
+
+#message_confirmation_yes {
+  margin-left:            16.5em;
 }
 
 #submit_button {

@@ -5,19 +5,15 @@ body {
 	overflow:               hidden;
 }
 
-#header ul {
-	bottom:                 0px;
-}
-
 body.videos #thumbnails img {
   width:                  240px;
   width:                  expression(this.width > 240 ? "240px" : true);
 }
 
-
 #big_picture, #big_video {
-	height:                 360px !important;
-
+/*  height:                 360px !important;*/
+	height:                 auto !important;
+}
 
 #all_pictures li, #cart_items li {
 	margin:                 1px;
