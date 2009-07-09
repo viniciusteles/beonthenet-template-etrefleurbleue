@@ -272,9 +272,9 @@ body.videos #thumbnails img {
 #big_picture, #big_video {
 	width:                  54.5em;
   /*  min-height:             33.25em;*/
-	min-height:             360px;
-	height:                 auto !important;
-	height:                 33.25em;
+/*  min-height:             360px;*/
+/*  height:                 auto !important;*/
+/*  height:                 33.25em;*/
 	margin-bottom:          1em;
 	position:               relative;
 }

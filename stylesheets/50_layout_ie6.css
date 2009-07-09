@@ -12,7 +12,7 @@ body.videos #thumbnails img {
 
 #big_picture, #big_video {
 /*  height:                 360px !important;*/
-	height:                 auto !important;
+/*  height:                 auto !important;*/
 }
 
 #all_pictures li, #cart_items li {
