@@ -55,7 +55,7 @@ body#selection #selection_size {
 }
 
 .go_to_checkout {
-  display:none !important;
+/*  display:none !important;*/
 }
 
 .moved_to_cart {
