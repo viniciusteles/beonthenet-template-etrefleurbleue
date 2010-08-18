@@ -5,6 +5,20 @@ body {
 	overflow:               hidden;
 }
 
+
+/* Flickr */
+#thumbnails cite a, #thumbnails cite a:hover {
+  background-image:       url(../images/flickr_ie6.png);
+	filter:                 alpha(opacity=30);
+}
+#thumbnails cite a:hover {
+  filter:                 alpha(opacity=100);
+}
+h1 {
+  position:               relative;
+}
+
+
 body.videos #thumbnails img {
   width:                  240px;
   width:                  expression(this.width > 240 ? "240px" : true);
