@@ -68,6 +68,61 @@ a {
 /* /Social network */
 
 
+/* Social media */
+.social_media {
+  padding:                          9px;
+  color:                            #FFF;
+  background:                       rgba(0,0,0,.8);
+}
+
+.social_media section {
+  display:                          inline-block;
+  width:                            49.5%;
+}
+
+.social_media em {
+  font-style:                       normal;
+  font-size:                        14px;
+}
+
+.social_media a {
+  text-decoration:                  none;
+  color:                            #DDD;
+}
+
+.social_media iframe {
+  vertical-align:                   middle;
+}
+
+@media screen and (min-width:1024px) {
+  .social_media {
+    padding-right:                  60px;
+    padding-left:                   60px;
+  }
+  .social_media section {
+    width:                          49.75%;
+  }
+}
+
+.social_links {
+  text-align:                       right;
+}
+
+.social_links a {
+  display:                          inline-block;
+  margin-left:                      6px;
+}
+
+.social_links img {
+  width:                            32px;
+  height:                           32px;
+  vertical-align:                   middle;
+  border-radius:                    3px;
+  box-shadow:                       0 1px 1px rgba(0, 0, 0, .75);
+}
+/* /Social media */
+
+
 /* Header tabbed menu */
 #header {
   min-height:             56px;
@@ -733,10 +788,9 @@ body > #facebox {
 
 /* Footer */
 #footer {
-  padding:                50px 50px 5px;
+  padding:                50px 60px 5px;
   border-width:           0 0 .2em;
   border-style:           solid;
-	margin-bottom:          2em;
 }
 
 #footer p {
